@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.menu-main nav ul{
+    display: flex;
+    margin: 50px;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #525252;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #252525;
+    color: #fff;
+}
+
+li:first-child button {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+li:last-child button {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+button:focus {
+    background-color: #c3281e;
+    border-color: #f00a0a;
+
+}
